@@ -1,0 +1,88 @@
+@import url();
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+#titulo {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3em;
+  padding-bottom: 15px;
+  color:#403D58;
+}
+
+.material-icons {
+  font-size: 2em;
+  color:#403D58;
+}
+.galeria {
+  width: 100%;
+  height: 100vh;
+  /*outline: 2px solid crimson;*/
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content:space-around;
+
+
+}
+
+.tipo {
+  width: 33%;
+  margin: 5%;
+  height: 45%;
+  padding: 2%;
+  background: #403D58;
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  flex-grow: wrap;
+}
+
+#roboto {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  padding-bottom: 15px;
+}
+
+.tipo1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.tipo2 {
+  background: #403D58;
+  font-family: 'Alfa Slab One', cursive;
+  
+}
+
+#alfa {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 1.7em;
+  font-style:normal;
+  padding-bottom: 15px;
+}
+
+
+.tipo3{
+  background:#403D58;
+  font-family: 'Righteous', cursive;
+}
+
+#righteous{
+  font-family: 'Righteous', cursive;
+  font-size: 1.7em;
+  font-style:normal;
+  padding-bottom: 15px;
+}
+
+
+
