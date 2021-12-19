@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    background-image: url(img/fondo-1400x860.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+header #logo {
+    position: fixed;
+    top: 0;
+    left: 50px;
+}
+
+#logo > img {
+    width: 50px;
+    height: auto;
+}
+
+header nav {
+    padding-top: 10px;
+    background-color: none;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+header nav li {
+    width: 20ex;
+    text-transform: uppercase;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    right: 50px;
+    
+}
+
+main #texto {
+  padding-top: 10em;
+  padding-left: 50px;
+  width: 50%;
+  box-sizing: border-box;
+  
+
+}
+
+main a {
+  text-decoration: none;
+}
+
+main #leyendaImagen {
+  width: 50%;
+  padding-left: 50%;
+}
+
+
+
+#leyendaImagen hr {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  width: 80%;
+}
+
+footer nav {
+  background-color: darkgrey;
+  height: 100px;
+}
+
+footer {
+  background-color: #2a2829;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+footer img {
+  padding-left: 1em;
+  width: 3em;
+  height: auto;
+}
+
+footer div {
+  box-sizing: border-box;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: lightgrey;    
+}
+
+.producto {
+  display: block;
+  padding-left: 2em;
+}
+
+
+
+
+
+
+
+
