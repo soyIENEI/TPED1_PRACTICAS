@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Ejemplo Boostrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+    <style type="text/css">
+        div {
+            box-sizing: border-box; /* para que los bordes, paddings estén en la anchura (determinada por col) */
+        }
+        nav {
+            background-color: aqua;
+            height: 100vh;
+        }   
+        #logo {
+            background-color: blue;
+            display: flex;
+            width: 70%;
+            height: 20vh;
+            flex-direction: row-reverse;
+            
+        }
+        
+        #contenido {
+            background-color: bisque;
+            display: flex; /* al ser col Boostrap ya le pone Flex */
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 80vh; /* 80% altura pantalla */
+            width: 100%;
+            overflow: auto;
+        }        
+        
+        
+        }        
+        @media (min-width: 768px) {
+            #galeria div{
+                width: 50%;  /* se aplica desde min-width desde 768px */
+            }
+        }        
+        
+        
+    </style>
+</head>
+<body>
+    <header class="col-12 col-md-12">
+        <div id="logo"> logo</div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-12 col-md-4">
+                MENU
+            </nav>
+            <section id="contenido" class="col-12 col-md-8">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                    et dolore magna aliqua. Volutpat est velit egestas dui id ornare. Dui nunc mattis enim ut. Pulvinar mattis 
+                    nunc sed blandit libero volutpat sed cras. Porta non pulvinar neque laoreet suspendisse interdum. Nascetur 
+                    ridiculus mus mauris vitae ultricies leo. Pharetra sit amet aliquam id. Bibendum neque egestas congue quisque 
+                    egestas diam in. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Platea dictumst 
+                    vestibulum rhoncus est pellentesque. Eros donec ac odio tempor orci. Eget magna fermentum iaculis eu non diam 
+                    phasellus vestibulum lorem. Duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat. A condimentum vitae 
+                    sapien pellentesque.
+                </p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
+
