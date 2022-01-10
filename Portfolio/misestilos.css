@@ -1,0 +1,27 @@
+#nombre{
+    height: 30vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    padding-left: 10px;
+  }
+
+  #menu{
+    height: 60vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40PX;
+    text-align: center;
+  }
+
+  #lista{
+    font-size: 20px;
+  }
+
+  #info{
+    height: 30vh;
+    padding-left: 10px;
+  }
+
+  #imagen{
+    height: 25vh;
+    
+  }
