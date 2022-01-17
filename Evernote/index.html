@@ -4,6 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -15,22 +19,50 @@
   </head>
   <body>
 
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-md bg-white navbar-light">
+        <div class="col-md-3">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>  
+        <div class="col-md-6">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRODUCTS |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NOTEWORTHY BLOG |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">THE TRUNK</a>
+                    </li>    
+                </ul>
+            </div>
+          
+        </div>
+        <div class="col-md-3">
+            <a href="" style="color: greenyellow;">WEB SIGN IN<br>
+            CREATE ACCOUNT<br>
+            GO PREMIUM<br></a>  
+        </div>
+      </nav>
+
+    <div class="container">
         <div class="row" style="align-items: center;">
-            <div class="col-md-3">
-                EVERNOTE
+            <div class="col-md-3" >
+                
             </div>
-            <div class="col-md-6">
-                PRODUCTS | NOTEWORTHY BLOG | THE TRUNK
+            <div class="col-md-6" style="color: greenyellow; ">
+                <a href="" style="color: greenyellow; ">  </a>
             </div>
-            <div class="col-md-3">
-                WEB SIGN IN<br>
-                CREATE ACCOUNT<br>
-                GO PREMIUM<br>
+            <div class="col-md-3" style="color: greenyellow; ">
+                
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="info">
                 <h3>Evernote</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus labore aliquam officiis maiores, tempore dolor saepe repellat. Inventore, dolores consectetur. Atque quas quod,
                     nemo sequi amet ducimus quae asperiores distinctio.
@@ -43,16 +75,16 @@
                 </button>
                 <br>
                 <br>
-                <a ahref style="color: greenyellow; padding-left: 50px;">Get Evernote for mobile, tablet, and other devices</a>
+                <a href style="color: greenyellow; padding-left: 50px;">Get Evernote for mobile, tablet, and other devices</a>
             </div>
             <div class="col-md-6">
                 <img src="img/hero_evernote.png" alt="imagen_grande">
             </div>
         </div>
         <div class="row">
-            <div class="galeria">
+            <div class="col-md-12" id="galeria">
                 
-                <div class="card" style="width: 18rem;">
+                <div class="card" id="carta">
                     <img src="img/ill_evernote1.png" class="card-img-top" alt="img1">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -60,7 +92,7 @@
                       
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card" id="carta">
                     <img src="img/ill_evernote2.png" class="card-img-top" alt="img2">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -68,7 +100,7 @@
                       
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card" id="carta">
                     <img src="img/ill_evernote3.png" class="card-img-top" alt="img2">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -76,7 +108,7 @@
                       
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card"  id="carta">
                     <img src="img/ill_evernote4.png" class="card-img-top" alt="img2">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -84,7 +116,7 @@
                       
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card"  id="carta">
                     <img src="img/ill_evernote5.png" class="card-img-top" alt="img2">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -92,7 +124,7 @@
                       
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card"  id="carta">
                     <img src="img/ill_evernote6.png" class="card-img-top" alt="img2">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -104,16 +136,16 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="pie">
                 <h3>Evernote stories</h3>
                 <p>Lorem ipsum ehfer erheh weprooj wqowj erj Evernote.</p>
             </div>
             <div class="col-md-3">
                 
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" id="pie">
                 <p>Check out our video library for more stories,tips and feature demos</p>
-                <button>
+                <button id="boton_library">
                     <img src="img/btn_stories-library.png" alt="video_library">
                 </button>
             </div>
