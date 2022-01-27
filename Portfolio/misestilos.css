@@ -3,25 +3,57 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 70px;
     padding-left: 10px;
+    color: #eb5160;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   #menu{
     height: 60vh;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40PX;
-    text-align: center;
+    text-align: right;
+    background-color: #eb5160;
+    padding-top: 20px;
+    padding-right: 70px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
   }
 
   #lista{
-    font-size: 20px;
+    font-size: 40px;
+    text-align: right;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   #info{
     height: 30vh;
     padding-left: 10px;
+    color: #071013;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   #imagen{
     height: 25vh;
     
+  }
+
+  #galeria{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+  #carta{
+    border: 0;
+    width: 30%;
   }

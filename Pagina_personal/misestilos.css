@@ -1,0 +1,24 @@
+
+
+
+#galeria{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#carta{
+    padding-top: 30px;
+    border: 0;
+    width: 30%;
+}
+#pie{
+    padding-top: 30px;
+}
+
+#info{
+    padding-top: 30px;
+    padding-left: 75px;
+}
